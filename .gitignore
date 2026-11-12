@@ -1,0 +1,9 @@
+/* 忽略构建缓存与本地产物 */
+_out/
+node_modules/
+*.log
+
+/* 系统垃圾 */
+Thumbs.db
+desktop.ini
+.DS_Store

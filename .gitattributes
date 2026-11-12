@@ -1,0 +1,7 @@
+# 仓库内统一 LF，检出时按平台自动转换
+* text=auto eol=lf
+
+# 二进制，别做行尾转换
+*.png binary
+*.jpg binary
+*.zip binary
