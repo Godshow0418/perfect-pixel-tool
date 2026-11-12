@@ -4,7 +4,7 @@
 
 本项目「完美像素」模块（pixcore.js 中的网格检测与格内采样部分：FFT 估算网格周期、
 Sobel 边缘细化、center / median / majority 三种采样）是下面这个项目的衍生作品，
-按 MIT 许可使用。MIT 全文见上。
+按 MIT 许可使用。MIT 全文见同目录的 `LICENSE`。
 
 1. theamusing/perfectPixel
    https://github.com/theamusing/perfectPixel
