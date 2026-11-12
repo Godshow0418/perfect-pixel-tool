@@ -142,6 +142,8 @@ theamusing/perfectPixel  (Python · MIT · © theAmusing)
 
 **其余部分为独立实现**：抠图、削边、描边、杂色清理、色表对标（中位切分是 Heckbert 1982 年的经典算法，自己写的实现）、视频转帧、GIF 编解码、全部界面与交互。
 
+完整的第三方代码声明见 [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md)。
+
 **还有一处是自研的**：`detectGrid` / `detectPitchAxis` 这套「整数块一致性」检测。上游算法用 FFT 估周期，遇到 AI 出图那种「块内纯色、边缘被糊掉 1–2px」的图会估错；这里的做法是按 k 切条看块内颜色散不散，真周期处一定出现低谷。它对糊边不敏感，判不了时才回落到上游的 FFT 方案。
 
 完整声明见 [LICENSE](LICENSE) 末尾的「第三方代码声明」。
